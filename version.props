@@ -1,6 +1,0 @@
-<Project>
-  <PropertyGroup>
-    <VersionPrefix>2.0.1</VersionPrefix>
-    <VersionSuffix Condition="'$(RELEASE_BUILD)' == ''">prerelease-$([System.DateTime]::Now.ToString("yyyyMMdd"))</VersionSuffix>
-  </PropertyGroup>
-</Project>
