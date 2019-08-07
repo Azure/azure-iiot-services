@@ -114,7 +114,7 @@ services:
       - PCS_IOTHUBREACT_AZUREBLOB_KEY
       - PCS_IOTHUBREACT_AZUREBLOB_ENDPOINT_SUFFIX
   twinwebui:
-    image: ${SERVICES_REPOSITORY:-mcr.microsoft.com/iot/}opc-twin-webui:${SERVICES_VERSION:-2.0}
+    image: ${SERVICES_REPOSITORY:-mcr.microsoft.com/iot/}opc-twin-webui:${SERVICES_VERSION:-latest}
     restart: always
     command: npm start
     environment:
